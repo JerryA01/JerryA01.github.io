@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>
+ Pay Now
+ </title>
+ <meta charset='utf-8' />
+ <link rel="stylesheet" href="BookWebsiteCSS.css">
+ <script src="BookWebsiteJava.js"></script>
+ </head>
+ <body>
+  <div id = "navigation">
+   <ul>
+    <li><a href = 'index.html'>Home</a></li>
+    <li><a href = 'ContactUs.html'>Contact Us</a></li>
+    <li><a href = 'AboutUs.html'>About Us</a></li>
+   </ul>
+  </div>
+  <br>
+  <br>
+  <h1>Pay</h1>
+  <br>
+  <div id = "pay">
+   <h2>Payment Options</h2> 
+   <hr>
+   <h3>Debit / Credit Card</h3> 
+   <img src="images/Card.PNG"  alt="Card"  title="MasterCard" width="90" height="50">
+   <br>
+   <form action ='#'>
+  <div class="field card-field">
+  <div>
+   <p>CardNumber:</p>
+   <input type ="text" placeholder="Enter your cardnumber" class ="CNumber" />
+   <p>(Card must start with 51,52,53,54 or 55)</p>  
+  </div>
+  </div>
+  <p> Expiration Date</p>
+  <select id="Month" name = "Month">
+   <option value='00'>Month</option>
+   <option value='01'>01</option>
+   <option value='02'>02</option>
+   <option value='03'>03</option>
+   <option value='04'>04</option>
+   <option value='05'>05</option>
+   <option value='06'>06</option>
+   <option value='07'>07</option>
+   <option value='08'>08</option>
+   <option value='09'>09</option>
+   <option value='10'>20</option>
+   <option value='11'>11</option>
+   <option value='12'>12</option>
+  </select>
+  <select id="Year" name = "Year">
+   <option value='00'>Year</option>
+   <option value='2019'>2019</option>
+   <option value='2020'>2020</option>
+   <option value='2021'>2021</option>
+   <option value='2022'>2022</option>
+   <option value='2023'>2023</option>
+   <option value='2024'>2024</option>
+   <option value='2025'>2025</option>
+   <option value='2026'>2026</option>
+   <option value='2027'>2027</option>
+   <option value='2028'>2028</option>
+   <option value='2029'>2029</option>
+   <option value='2030'>2030</option>
+   <option value='2031'>2031</option>
+   <option value='2032'>2032</option>
+   <option value='2033'>2033</option>
+   <option value='2034'>2034</option>
+   <option value='2035'>2035</option>
+  </select>
+  <br><br>
+  <div class = "field cvv-field">
+  <div>
+   <p>Security Code</p>
+    <input type ="text" placeholder="Enter your CVV" class ="CVVNumber" />
+    <p>(3-4 digit code normally on the back of your card)</p>  
+  </div>
+  </div>
+  <input type='submit'  value='Continue'>
+  </div>
+  </form>
+ </body>
+</html>
