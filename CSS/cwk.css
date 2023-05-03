@@ -1,0 +1,142 @@
+@charset "UTF-8";
+body {
+ background-color: #fdfdfd;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ font-size: 10pt;
+} 
+
+#navigation {
+ width: 70%;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;    
+}
+
+#success {
+ text-align: center;
+}
+
+#pay {
+ text-align: center;
+ font-size: 10pt;
+}
+
+li {
+ display: inline;
+ padding-left: 25px;
+ padding-right: 25px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+ background-color:#E8E8E8;
+ border-radius: 5px;
+}
+
+a {
+ text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: large;
+ color: rgb(0, 0, 0);
+}
+
+a:hover {
+ text-decoration: underline;
+ color: rgb(35, 21, 230);
+}
+
+html {
+ background: #E8E8E8;
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px; /*em font sizes will be relative to this*/
+ margin: 0 auto;
+ width: 1100px;
+ background: #E8E8E8;
+}
+    
+#book3-4, #book1-2 {
+ width: 500px;
+ float: left;
+ 
+}
+    
+#book3-4 {
+ border-left: 2px solid #c6cec9;
+ margin-left: 50px;
+ padding-left: 25px;
+}
+
+article {
+ margin-top: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+
+p {
+ color: rgb(3, 3, 3);
+ text-align: center;
+ text-align: center;
+ width: 200px;
+ margin-left: 210px;
+}
+
+#navigation {
+ width: 20%;
+ margin-left: 245px;
+ margin-right: auto;
+ border: 1px #dfd7d7;
+ text-align: center;
+}
+
+li {
+ display: inline-block;
+ padding-left: 25px;
+ padding-right: 25px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+ background-color:#E8E8E8;
+ border-radius: 5px;
+}
+
+#Heading {
+ margin-left: 90px;
+ margin-right: 320px;
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px; /*em font sizes will be relative to this*/
+ margin: 0 ;
+ width: 0px;
+ background: #E8E8E8;
+}
+
+h1 {
+ margin-left: 200px;
+}
+
+#book3-4, #book1-2 {
+ width: 650px;
+ float: left;
+ margin-left: 0px;
+ border-left: 2px;
+ padding-left: 20px;
+}
+
+article {
+ margin-top: 0px;
+}
+}
+
+    
+ 
+ 
+    
+ 
+    
