@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+ <head>
+  <title>
+  Success Page
+  </title>
+  <meta charset='utf-8' />
+  <link rel="stylesheet" href="CSS/cwk.css">
+ </head>
+ <body>
+  <div id = "navigation">
+   <ul>
+    <li><a href = 'index.html'>Home</a></li>
+    <li><a href = 'ContactUs.html'>Contact Us</a></li>
+    </ul>
+  </div>
+  </div>
+  <hr>
+  <br> 
+  <h3>Debit / Credit Card</h3>
+  <img src="images/Card.PNG"  alt="Card"  title="MasterCard" width="90" height="50">
+ </body>
+ <p id='pop'></p>
+ <script> 
+  let url = location.href
+  let pop = url.replace(/.*=/, '')
+  document.getElementById('pop').innerHTML = "Your card **** **** **** " + pop + ' has been saved.'
+  </script>
+</html>
